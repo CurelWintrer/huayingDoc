@@ -15,7 +15,8 @@ export default defineConfig({
       {
         text: 'CrossOcrean',
         items: [
-          { text: '使用船员手册', link: '/使用船员手册' },
+          { text: '安全声明', link: '/securityStatements'},
+          { text: '系统简介', link: '/systemIntroduction'},
           { text: 'APP结构', link: '/app结构' }
         ]
       },
@@ -75,6 +76,10 @@ export default defineConfig({
           // {text: '语音助手功能',link: '/XiaoYun/feature/'},
           // {text: '常见问题',link: '/XiaoYun/feature/'},
         ],
+      },
+      {
+        text: '术语表',
+        link: '/termList',
       }
     ],
 
