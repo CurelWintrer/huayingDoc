@@ -1,37 +1,47 @@
-<img  src="./img/cover/logo.png"  width="180"  style="display:block;margin-bottom:80px;"/>
-
-<div style="text-align:center;">
-
-<div style="height:12px;"></div>
-
-<div style="text-align:center;"><h1 style="margin:0;font-size:36px;">华鹰平板App船员手册</h1><div style="height:12px;"></div><h2 style="margin:0;color:#666;font-weight:normal;">CrossOcean</h2></div>
+<h1 style="text-align:center;font-size:56px;">
+华鹰平板App船员手册
+</h1>
 
 
 
 
 
-![平板展示](./img/cover/平板展示.png)
 
 
 
 
 
-<div style="text-align:center;">
-  <h3 style="margin:0;font-weight:normal;">
-    2026-06-25
-  </h3>
+
+<p align="center">
+<img src="./img/cover/logo.png" width="380">
+</p>
+
+
+
+
+
+
+
+
+
+<h3 style="text-align:center;font-weight:normal;">
+2026-06-25
+</h3>
+
+<div style="page-break-after: always;"></div>
+
+
+<div style="display:flex;align-items:center;">
+    <h1>安全声明</h1>
+    <img src="./AppIcons/warning.svg" width="40">
 </div>
 
-
-<div style="page-break-after: always;"></div>
-
-<div style="page-break-after: always;"></div>
-
-# 一、安全声明
 
 ## 请在使用前仔细阅读
 
 本手册适用于智能船舶控制平板应用程序（以下简称“本系统”）。在使用本系统前，请仔细阅读并理解本手册中的全部内容，以确保安全、正确地使用各项功能。
+
+
 
 ## 重要安全提示
 
@@ -46,6 +56,8 @@
 ### 自动功能不等于无人驾驶
 
 自动循迹功能仅根据预设航线控制船舶航行，不具备完全自主避碰能力。船员应随时做好接管准备，并根据实际情况进行人工干预。
+
+
 
 ### 紧急情况下立即接管
 
@@ -95,6 +107,8 @@
 
 软件版本：1.0.0
 
+![平板展示](./img/systemIntroduction/平板展示.png)
+
 ## 系统概述
 
 该系统是一套集航线规划、自动循迹、电子围栏和设备管理于一体的智能化船舶辅助控制平台。
@@ -108,6 +122,7 @@
 实时显示：
 
 - 船舶位置
+- 船舶轨迹
 - 航向信息
 - 航行速度
 - 推进器状态
@@ -807,8 +822,10 @@ SOC（State of Charge）表示电池剩余可用容量百分比。
 
 <div style="page-break-after: always;"></div>
 
-# 七、循迹
-
+<div style="display:flex;align-items:center;">
+    <h1>循迹</h1>
+    <img src="./img/tracking/path-open.svg" width="40">
+</div>
 
 
 循迹功能用于使船舶按照预设航线自动航行。
@@ -818,7 +835,8 @@ SOC（State of Charge）表示电池剩余可用容量百分比。
 航线支持以下两种方式创建：
 
 - 自定义绘制：在地图上手动绘制航线
-- 历史加载：从已保存的航线记录中选择并加载
+- 历史加载：从已保存的航线记录中选择并加载 
+- 
 
 
 
@@ -842,21 +860,21 @@ SOC（State of Charge）表示电池剩余可用容量百分比。
 
 ![路线绘制工具](./MapPage/feature/img/tracking/路线绘制工具.png)
 
-1. 循迹类型：点击可重新选择循迹模式（弹出模式选择窗口）
-2. 循迹速度：通过滑块设定目标航行速度
-3. 撤销操作：撤销上一步编辑操作
-4. 重做操作：恢复已撤销的操作
-5. 清空路径点：删除当前所有路径点
-6. 保存路线：将当前航线保存至本地或服务器
-7. 速度微调（+）：逐步增加航行速度
-8. 速度微调（-）：逐步降低航行速度
-9. 总行程：自动计算当前航线总长度
-10. 路径点详情：展示当前选中点信息，支持单点删除
-11. 路径点：构成航线的基础节点
-12. 路径中心点：点击或拖动可在中间插入新的路径点
-13. 路径长度：显示相邻节点间距离
-14. 发送轨迹：提交当前航线并进入发送确认流程
-15. 退出编辑：退出航线绘制模式
+1. **循迹类型：**点击可重新选择循迹模式（弹出模式选择窗口）
+2. **循迹速度：**通过滑块设定目标航行速度
+3. **撤销操作：**<img src="./img/tracking/undo.svg" width="30">撤销上一步编辑操作
+4. **重做操作：**<img src="./img/tracking/redo.svg" width="30">恢复已撤销的操作
+5. **清空路径点：**<img src="./img/tracking/delete.svg" width="30">删除当前所有路径点
+6. **保存路线：**将当前航线保存至本地或服务器
+7. **速度微调：**<img src="./img/tracking/add.svg" width="30">逐步增加航行速度
+8. **速度微调：**<img src="./img/tracking/less.svg" width="30">逐步降低航行速度
+9. **总行程：**自动计算当前航线总长度
+10. **路径点详情：**展示当前选中点信息，支持单点删除
+11. **路径点：**构成航线的基础节点
+12. **路径中心点：**点击或拖动可在中间插入新的路径点
+13. **路径长度：**显示相邻节点间距离
+14. **发送轨迹：**提交当前航线并进入发送确认流程
+15. **退出编辑：**退出航线绘制模式
 
 
 
@@ -929,7 +947,28 @@ SOC（State of Charge）表示电池剩余可用容量百分比。
 
 ## 4、围栏报警机制
 
-当船舶运行过程中，进入围栏外区域时，系统将自动触发报警平板设备将发出**声光提示**
+当船舶运行过程中超出电子围栏范围时，系统将自动触发报警。平板设备会通过**声光提示**提醒船员及时关注船舶状态并采取相应措施。
+
+![告警](./MapPage/feature/img/electronicFence/告警.png)
+
+1. **警告动画：** 当船舶超出电子围栏范围时，屏幕将显示红色遮罩并持续闪烁，以提示当前存在告警事件。
+2. **告警信息：** 显示当前告警的具体原因，帮助船员快速了解异常情况。
+3. **关闭告警按钮：** 点击该按钮后，屏幕上的红色遮罩和闪烁动画将被关闭，但不会解除实际告警状态。
+4. **告警按钮：** 当系统检测到告警事件时，告警按钮将变为红色并持续闪烁。即使关闭了告警动画，告警按钮仍会保持闪烁状态，用户无法手动关闭。只有当系统检测到告警条件解除后，告警按钮才会自动恢复正常显示。
+
+**关闭告警动画后告警按钮保持闪烁：**
+
+![warning-close](./MapPage/feature/img/electronicFence/warning-close.png)
+
+
+
+
+
+
+
+
+
+
 
 
 
