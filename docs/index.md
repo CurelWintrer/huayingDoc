@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 船员手册
-      link: /使用船员手册
+      link: /systemIntroduction
     - theme: alt
       text: 联系我们
       link: http://www.crossocean.world/
