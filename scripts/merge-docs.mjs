@@ -114,15 +114,30 @@ function getBaseRoute(link) {
 // ============================
 // rewrite image path
 // ============================
-function rewriteImagePath(md, baseRoute) {
+function rewriteImagePath(md, baseRoute = '') {
   return md.replace(
     /!\[([^\]]*)\]\((\.\/img\/[^)]+)\)/g,
     (match, alt, imgPath) => {
       const cleanImgPath = imgPath.replace(/^\.\//, '')
-      const newPath = `${baseRoute}/${cleanImgPath}`
+
+      const newPath = baseRoute
+        ? `.${baseRoute}/${cleanImgPath}`
+        : `./${cleanImgPath}`
+
       return `![${alt}](${newPath})`
     }
   )
+}
+
+function readCover() {
+  const coverPath = path.join(docsRoot, 'cover.md')
+
+  if (!fs.existsSync(coverPath)) {
+    console.warn('⚠️ cover.md not found')
+    return ''
+  }
+
+  return fs.readFileSync(coverPath, 'utf-8')
 }
 
 // ============================
@@ -158,7 +173,14 @@ function readMd(fileLink, index) {
 // ============================
 // merge
 // ============================
-let result = '# 产品说明书（合并版）\n\n'
+// ============================
+// merge
+// ============================
+let result = ''
+
+// 先添加封面
+result += readCover()
+result += '\n\n'
 
 let index = 1
 
@@ -172,7 +194,7 @@ for (const group of sidebar) {
 
   for (const item of items) {
     result += readMd(item.link, index)
-    result += '\n\n'
+    result += '\n\n<div style="page-break-after: always;"></div>\n\n'
     index++
   }
 }
