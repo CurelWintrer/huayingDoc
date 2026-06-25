@@ -15,8 +15,8 @@ export default defineConfig({
       {
         text: 'CrossOcrean',
         items: [
-          { text: '安全声明', link: '/securityStatements'},
           { text: '系统简介', link: '/systemIntroduction'},
+          { text: '安全声明', link: '/securityStatements'},
           { text: 'APP结构', link: '/app结构' }
         ]
       },
