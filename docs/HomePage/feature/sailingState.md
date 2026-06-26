@@ -142,7 +142,7 @@ DEG（Degree，度）
 - 自动航行模式下，推进器角度和转速由控制系统自动调整。
 - 手动模式下，推进器响应驾驶员操作指令。
 
-#### 注意事项
+#### 注意事项 <img src="./img/sailingState/bell.svg" width="24" style="display:inline;vertical-align:middle;" />
 
 - 推进器状态显示“故障”时，应立即停止相关操作并检查设备。
 - 推进器信息仅作为监控参考，实际控制效果受船体载荷、水流、风力等环境因素影响。
