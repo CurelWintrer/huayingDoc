@@ -116,15 +116,11 @@ function getBaseRoute(link) {
 // ============================
 function rewriteImagePath(md, baseRoute = '') {
   return md.replace(
-    /!\[([^\]]*)\]\((\.\/img\/[^)]+)\)/g,
-    (match, alt, imgPath) => {
-      const cleanImgPath = imgPath.replace(/^\.\//, '')
-
-      const newPath = baseRoute
-        ? `.${baseRoute}/${cleanImgPath}`
-        : `./${cleanImgPath}`
-
-      return `![${alt}](${newPath})`
+    /\.\/img\/([^)'" >]+)/g,
+    (_, file) => {
+      return baseRoute
+        ? `.${baseRoute}/img/${file}`
+        : `./img/${file}`
     }
   )
 }
