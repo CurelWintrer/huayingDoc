@@ -70,7 +70,7 @@ export default defineConfig({
       },
       {
         text: '小韵语音助手',
-        link: '/XiaoYun/xiaoyun',
+        link: '/XiaoYun/xiaoYun',
         collapsed: false,
         items: [
           // {text: '语音助手功能',link: '/XiaoYun/feature/'},
