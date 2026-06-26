@@ -11,7 +11,6 @@
 用于统一控制船舶全部灯光设备。
 
 开启后：
-
 - 导航灯
 - 锚灯
 - 顶灯
@@ -58,6 +57,12 @@
 
 点击或滑动开关即可切换灯光状态。
 
+#### 注意事项：
+
+- 若通过平板控制开启灯光后，开关短暂开启又自动关闭，可能为控制器故障，请及时检修相关设备。
+
+- 若平板上显示开关已开启，但实际灯光未点亮，且多次重试仍无法恢复，可能为通讯异常，请优先检查网络连接状况。
+
 
 
 #### 状态同步机制
@@ -88,7 +93,7 @@
 
 便于船员快速识别和管理船体各位置灯光设备。
 
-#### 注意事项
+#### 注意事项 <img src="./img/lightsAirControl/bell.svg" width="24" style="display:inline;vertical-align:middle;" />
 
 - 夜间航行时应按照当地航行规则正确使用导航灯。
 - 锚泊期间应根据实际情况开启锚灯。
@@ -117,8 +122,8 @@
 
 | 状态 | 说明           |
 | ---- | -------------- |
-| 开启 | 空调正在运行   |
-| 关闭 | 空调已停止运行 |
+| 开启 <img src="./img/lightsAirControl/air-open.png" width="20" style="display:inline;vertical-align:middle;" />| 空调正在运行   |
+| 关闭 <img src="./img/lightsAirControl/air-close.png" width="20" style="display:inline;vertical-align:middle;" />| 空调已停止运行 |
 
 开启后，空调将按照当前设定的模式、温度和风速运行。
 
@@ -130,9 +135,9 @@
 
 | 模式 | 说明         |
 | ---- | ------------ |
-| 制冷 | 降低舱内温度 |
-| 制热 | 提高舱内温度 |
-| 除湿 | 降低空气湿度 |
+| 制冷 <img src="./img/lightsAirControl/制冷.svg" width="20" style="display:inline;vertical-align:middle;" /> | 降低舱内温度 |
+| 制热  <img src="./img/lightsAirControl/制热.svg" width="20" style="display:inline;vertical-align:middle;" />| 提高舱内温度 |
+| 除湿 <img src="./img/lightsAirControl/除湿.svg" width="20" style="display:inline;vertical-align:middle;" />| 降低空气湿度 |
 
 #### 3. 空调温度
 
@@ -140,16 +145,16 @@
 
 #### 4. 空调风速
 
-显示当前风速等级。
+
 
 支持以下档位：
 
 | 风速 | 说明                     |
 | ---- | ------------------------ |
-| 低速 | 风量较小，运行噪声较低   |
-| 中速 | 适用于日常使用           |
-| 高速 | 快速调节舱内温度         |
-| 自动 | 根据环境温度自动调整风速 |
+| 低速 <img src="./img/lightsAirControl/风速1.svg" width="20" style="display:inline;vertical-align:middle;" /> | 风量较小，运行噪声较低   |
+| 中速 <img src="./img/lightsAirControl/风速2.svg" width="20" style="display:inline;vertical-align:middle;" /> | 适用于日常使用           |
+| 高速 <img src="./img/lightsAirControl/风速3.svg" width="20" style="display:inline;vertical-align:middle;" /> | 快速调节舱内温度         |
+| 自动 AUTO | 根据环境温度自动调整风速 |
 
 #### 5. 最低支持温度
 
@@ -203,7 +208,7 @@
 
 
 
-#### 注意事项
+#### 注意事项 <img src="./img/lightsAirControl/bell.svg" width="20" style="display:inline;vertical-align:middle;" />
 
 - 空调关闭状态下无法调整温度和风速。
 - 制冷模式下温度设置过低会增加电池能耗。
