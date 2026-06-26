@@ -1,7 +1,4 @@
-<div style="display:flex;align-items:center;">
-    <h1>安全声明</h1>
-    <img src="./AppIcons/warning.svg" width="40">
-</div>
+# 安全声明 <img src="./AppIcons/warning.svg" width="32" style="display:inline;vertical-align:middle;" />
 
 
 ## 请在使用前仔细阅读
