@@ -17,11 +17,7 @@
    - 关闭状态：<img src="./img/shipPage/air-close.png" width="32" style="display:inline;vertical-align:middle;" />
 4. **空调当前设定温度：**显示当前空调目标温度
 5. **空调当前模式：**显示当前运行模式（制冷<img src="./img/shipPage/制冷.svg" width="20" style="display:inline;vertical-align:middle;" /> / 制热 <img src="./img/shipPage/制热.svg" width="20" style="display:inline;vertical-align:middle;" />/ 除湿<img src="./img/shipPage/除湿.svg" width="20" style="display:inline;vertical-align:middle;" />）
-6. **空调当前风速：**显示当前风速档位（低速
-<img src="./img/shipPage/风速1.svg" width="20" style="display:inline;vertical-align:middle;" />/
-中速<img src="./img/shipPage/风速2.svg" width="20" style="display:inline;vertical-align:middle;" />/
-高速<img src="./img/shipPage/风速3.svg" width="20" style="display:inline;vertical-align:middle;" />
-）
+6. **空调当前风速：**显示当前风速档位（低速<img src="./img/shipPage/风速1.svg" width="20" style="display:inline;vertical-align:middle;" />/中速<img src="./img/shipPage/风速2.svg" width="20" style="display:inline;vertical-align:middle;" />/高速<img src="./img/shipPage/风速3.svg" width="20" style="display:inline;vertical-align:middle;" />）
 7. **空调温度调低按钮：**每次点击降低设定温度
 8. **空调温度调高按钮：**每次点击提高设定温度
 9. **空调模式切换按钮：**用于切换空调运行模式，点击循环切换空调模式
