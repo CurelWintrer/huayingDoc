@@ -4,4 +4,4 @@
 
 进入设置页面后，默认显示“[船舶信息](./feature/shipSetting.md)”配置界面。
 
-![设置首页](./img/settingPage/设置首页.jpg)
+![设置首页](./img/settingPage/设置首页.png)
