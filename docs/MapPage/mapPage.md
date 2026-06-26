@@ -4,9 +4,17 @@
 
 1. 船舶位置经纬度和当前航速信息
 2. 推进器信息和航向角信息
-3. 功能按钮（循迹、保存的循迹任务、电子围栏）
-4. 地图控制按钮
-5. 地图图例
+3. 功能按钮（[循迹](./feature/tracking.md) <img src="./img/mapPage/path.svg" width="20" style="display:inline;vertical-align:middle;" />、
+[保存的循迹任务](./feature/wayPointSave.md) <img src="./img/mapPage/local.svg" width="20" style="display:inline;vertical-align:middle;" />、
+[电子围栏](./feature/electronicFence.md) <img src="./img/mapPage/geoFence.svg" width="20" style="display:inline;vertical-align:middle;" />
+）
+4. [地图控制](./feature/mapControl.md)按钮（
+实时轨迹显示<img src="./img/mapPage/eye.svg" width="32" style="display:inline;vertical-align:middle;" />、
+地图锁定 <img src="./img/mapPage/lock.svg" width="20" style="display:inline;vertical-align:middle;" />、
+船舶方向固定 <img src="./img/mapPage/north.svg" width="20" style="display:inline;vertical-align:middle;" />、
+定位船舶位置 <img src="./img/mapPage/position.svg" width="20" style="display:inline;vertical-align:middle;" />
+）
+5. 地图图例：用于表示地图上的路径元素类型（蓝色线段为路径，红色线段为电子围栏边界）
 
 
 
