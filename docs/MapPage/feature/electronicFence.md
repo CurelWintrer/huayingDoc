@@ -24,15 +24,15 @@
 
 ![电子围栏绘制](./img/electronicFence/电子围栏绘制.png)
 
-1. 围栏节点：构成电子围栏边界的基础点
-2. 边线中点：点击或拖动可在中点位置插入新节点
-3. 撤销操作：撤销上一步编辑
-4. 重做操作：恢复已撤销操作
-5. 清空围栏：删除当前所有围栏节点
-6. 节点详情：显示当前选中节点信息，可删除单个节点
-7. 设置围栏：提交当前围栏并进入确认流程
-8. 取消围栏：取消当前已设置的电子围栏
-9. 退出编辑：退出编辑模式并隐藏绘制工具
+1. **围栏节点**：构成电子围栏边界的基础点
+2. **边线中点**：点击或拖动可在中点位置插入新节点
+3. **撤销操作：** <img src="./img/electronicFence/undo.svg" width="20" style="display:inline;vertical-align:middle;" />撤销上一步编辑
+4. **重做操作：** <img src="./img/electronicFence/redo.svg" width="20" style="display:inline;vertical-align:middle;" />恢复已撤销操作
+5. **清空围栏：** <img src="./img/electronicFence/delete.svg" width="20" style="display:inline;vertical-align:middle;" />删除当前所有围栏节点
+6. **节点详情：**显示当前选中节点信息，点击右侧删除<img src="./img/electronicFence/delete.svg" width="20" style="display:inline;vertical-align:middle;" />按钮可删除当前点
+7. **设置围栏：**提交当前围栏并进入确认流程
+8. **取消围栏：**取消当前已设置的电子围栏
+9. **退出编辑：**退出编辑模式并隐藏绘制工具
 
 
 
@@ -44,7 +44,7 @@
 
 设置成功后，系统将启用电子围栏保护机制。
 
-![电子围栏设置弹窗](./img/electronicFence/电子围栏设置弹窗.jpg)
+![电子围栏设置弹窗](./img/electronicFence/电子围栏设置弹窗.png)
 
 
 
